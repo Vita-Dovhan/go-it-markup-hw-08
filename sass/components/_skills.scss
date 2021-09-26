@@ -1,0 +1,28 @@
+.skills__item{
+  margin-bottom: 20px;
+}
+
+
+.skills__box{
+  display: flex;
+  justify-content: center;
+  background-color: #f5f4fa;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  padding: 25px 0;
+}
+
+.skills__title {
+  text-align: center;
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.skills__text {
+  font-weight: 500;
+font-size: 14px;
+line-height: 1.71;
+  color: #757575;
+}

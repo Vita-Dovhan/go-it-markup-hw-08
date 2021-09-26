@@ -1,0 +1,57 @@
+.main {
+  display: block;
+  text-align: center;
+  padding-bottom: 118px;
+  padding-top: 118px;
+  padding-left: 60px;
+  padding-right: 60px;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url('../images/hw-fourth/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    @media (min-width:1200px) {
+    padding-bottom: 200px;
+    padding-top: 200px;
+    }
+}
+
+
+.main__title {
+
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--white-color);
+  margin-bottom: 13px;
+  @media (min-width:1200px) {
+     font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  }
+}
+
+.main__button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  color: var(--white-color);
+
+  display: inline-block;
+  min-width: 200px;
+  height: 50px;
+  text-align: center;
+  background-color: var(--accent-color);
+  border: 1px solid transparent;
+  border-radius: 4px;
+  transition: background-color var(--time) var(--main-function);
+  &:hover,
+  &:focus {
+    background-color: #188ce8;
+  }
+}
+
