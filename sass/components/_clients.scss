@@ -19,7 +19,7 @@
   align-items: center;
   transition: border var(--time) var(--main-function);
     &:hover {
-    border: 1px solid var(--accent-color);
+    border: 1px solid green;
   }
 }
 
