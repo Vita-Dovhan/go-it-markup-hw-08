@@ -168,18 +168,6 @@ img {
   right: 15px;
 }
 
-.mob-menu .icon-cross {
-  display: none;
-}
-
-.mob-menu.js-open-menu .icon-cross {
-  display: block;
-}
-
-.mob-menu.js-open-menu .icon-menu {
-  display: none;
-}
-
 .contacts {
   display: none;
   margin-left: auto;
@@ -446,7 +434,7 @@ img {
 }
 
 .footer {
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: center;
   background-color: var(--back-ground-color);
