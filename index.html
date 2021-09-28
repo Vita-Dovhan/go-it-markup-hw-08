@@ -30,18 +30,6 @@
          <div class="logo-animation">
           <a class="logo" href="/">Web<span class="logo--dark">Studio</span></a>
         </div> 
-            <button type="button" class="mob-menu is-open"
-            data-menu-open>
-            <svg 
-            width="40" 
-            height="40"
-            aria-label="перемикач мобільного меню">
-              <use class="icon-menu" href="./images/symbol-defs10.svg#icon-menu">
-              </use>
-            </svg>
-          </button>
-        <!-- nav_content -->
-        <nav>
           <ul class="nav">
             <li class="nav__item">
               <a class="nav__link nav__link--current" href="/">Студія</a>
@@ -70,7 +58,61 @@
             >
           </li>
         </ul>
+         <button class="icon-menu" data-menu-open>
+            <svg class="burger-menu"
+            width="40" 
+            height="40">
+              <use href="./images/symbol-defs10.svg#icon-menu">
+              </use>
+            </svg> 
+          </button>
       </div>
+      <div class="mob-menu is-hidden" data-menu>
+                 <ul class="mob-menu-list">
+            <li class="mob-menu-list__item">
+              <a class="mob-menu-list__link mob-menu--current" href="/">Студія</a>
+            </li>
+            <li class="mob-menu-list__item">
+              <a class="mob-menu-list__link mob-menu-link" href="./portfolio.html">Портфоліо</a>
+            </li>
+            <li class="mob-menu-list__item">
+              <a class="mob-menu-list__link" href="/">Контакти</a>
+            </li>
+          </ul>
+        <ul class="mob-menu-contacts">
+               <li class="mob-menu-list__item">
+            <a class="mob-menu-list__link-tel" href="tel:info@devstudio.com">
+              +38 096 111 11 11</a
+            >
+          </li>
+          <li class="mob-menu-list__item">
+            <a class="mob-menu-list__link-mail" href="mailto:info@devstudio.com">
+               info@devstudio.com</a
+            >
+          </li>
+        </ul>
+        <ul class="mob-networks">
+          <li class="mob-networks__item">
+            <a class="mob-networks__link" href="https://www.instagram.com/">Instagram</a>
+          </li>
+           <li class="mob-networks__item">
+            <a class="mob-networks__link" href="https://www.instagram.com/">Twitter</a>
+          </li>
+           <li class="mob-networks__item">
+            <a class="mob-networks__link" href="https://www.instagram.com/">Facebook</a>
+          </li>
+           <li class="mob-networks__item">
+            <a class="mob-networks__link" href="https://www.instagram.com/">LinkedIn</a>
+          </li>
+        </ul>
+            <button class="mob-menu-close" data-menu-close>
+              <svg class="mob-menu-cross"
+              width="40" 
+              height="40">
+                <use href="./images/symbol-defs10.svg#icon-cross"></use>
+              </svg>
+            </button>
+          </div>
     </header> 
 
     <!-- Page_main_section -->
@@ -565,7 +607,7 @@
           </button>
         </form>
 
-        <div class="backdrop is-hidden" data-modal>
+        <div class="backdrop" data-modal>
           <div class="modal">
             <form class="form-modal">
               <p class="form-modal__text">Залиште свої дані, ми вам перетелефонуємо</p>
@@ -623,7 +665,9 @@
           </div>
         </div>
       </div>
-      <script src="./js/modal.js"></script>
+        </div>
+       <script src="./js/menu.js"></script>
     </footer>
+      <script src="./js/modal.js"></script>
   </body>
 </html>
