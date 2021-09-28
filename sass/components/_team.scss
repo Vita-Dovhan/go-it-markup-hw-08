@@ -1,8 +1,13 @@
 .team {
+  margin-left: -15px;
   background-color: #f5f4fa;
 }
 .team__item{
+  margin-left: -15px;
   margin-bottom: 30px;
+    @media (min-width: 768px) {
+    flex-basis: calc((100% - 60px) / 2);
+  }
 }
 .team__member {
   font-weight: 500;

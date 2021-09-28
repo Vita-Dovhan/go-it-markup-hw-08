@@ -1,7 +1,14 @@
 .header{
   position: relative;
   border-bottom: 1px solid #ececec;
+  padding-top: 16px;
+  padding-left: 15px;
+  padding-bottom: 16px;
+  @media (min-width: 768px) {
+  padding: 0;
+  }
 }
+
 .header__container{
   display: flex;
   align-items: center;
@@ -16,21 +23,25 @@
   line-height: 1.16;
   text-decoration: none;
   color: var(--accent-color);
-  margin-right: 93px;
+ @media (min-width: 768px) {
+    margin-right: 88px;
+ }
+  @media (min-width: 1200px) {
+    margin-right: 93px;
+ }
 }
 
 .logo--dark {
   color: #000000;
 }
-.logo-animation{ 
-  padding-top: 16px;
-  padding-bottom: 16px;
-  padding-left: 15px;
-}
-
 
 .nav {
   display: none;
+  @media (min-width:768px) {
+    display: flex;
+    margin-right: 84px;
+    
+  }
 }
 
 .nav__link {
@@ -38,8 +49,8 @@
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
-  padding-top: 32px;
-  padding-bottom: 32px;
+  // padding-top: 32px;
+  // padding-bottom: 32px;
   transition: color var(--time) var(--main-function);
   &:hover,
   &:focus {
@@ -84,13 +95,22 @@ background-color:  #2196F3;
 .nav__icon {
   margin-right: 10px;
   fill: currentColor;
+  @media (min-width: 768px) {
+    margin-right: 8px;
+    
+  }
 }
 .icon-menu{
+  width: 40px;
+  height: 40px;
   position: absolute;
-  top: 10px;
   right: 15px;
   background-color: transparent;
   border: none;
+  @media (min-width: 768px) {
+    display: none;
+    
+  }
 }
 
 .mob-menu {
@@ -102,6 +122,10 @@ background-color:  #2196F3;
     right: 0;
     padding-top: 48px;
     padding-left: 40px;
+    @media (min-width: 768px) {
+      display: none;
+      
+    }
 
 }
 
@@ -204,6 +228,10 @@ font-size: 24px;
 line-height: 1.17;
 letter-spacing: 0.02em;
 color: #757575;
+&:hover,
+&:focus{
+  color: var(--accent-color);
+}
 }
 
 .mob-menu-contacts{

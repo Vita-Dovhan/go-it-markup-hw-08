@@ -7,6 +7,10 @@
 .clients__item {
   margin-left: 15px;
   margin-bottom: 30px;
+  @media (min-width: 768px) {
+    
+  }
+  flex-basis: calc((100% - 90) / 3);
 }
 
 .clients__link {
