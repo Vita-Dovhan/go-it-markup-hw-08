@@ -3,8 +3,8 @@ position: absolute;
 top: 50%;
 left: 50%;
 
-min-width: 528px;
-min-height: 581px;
+min-width: 450px;
+min-height: 609px;
 
 padding: 40px;
 background: #FFFFFF;
@@ -13,7 +13,13 @@ border-radius: 4px;
 
 transform: translate(-50%, -50%);
 transition: transform var(--time) var(--main-function);
+@media (min-width:1200px) {
+  min-width: 528px;
+min-height: 581px;
+  
 }
+}
+
 
 
 .modal-close{
@@ -35,4 +41,11 @@ transition: border var(--time) var(--main-function);
    &:hover{
    border: 1px solid #2196f3;
   }
+}
+
+.form-modal__text-link{
+font-size: 12px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+color: #757575;
 }

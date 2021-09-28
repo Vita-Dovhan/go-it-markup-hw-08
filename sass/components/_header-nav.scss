@@ -211,3 +211,12 @@ color: #757575;
   bottom: 134px;
   left: 40px
 }
+
+.mob-networks__item:not(:first-child)::before{
+content: "";
+width: 0px;
+height: 22px;
+position: absolute;
+margin-left: -10px;
+border: 1px solid rgba(33, 33, 33, 0.2);
+}
