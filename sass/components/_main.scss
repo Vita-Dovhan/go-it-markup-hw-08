@@ -6,7 +6,7 @@
   padding-left: 60px;
   padding-right: 60px;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url('../../images/hw-eight/desktop/member-1-2x.webp');
+    url('../../images/hw-eight/mobile/hero-mob-1x.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -50,16 +50,6 @@
     background-position: center;
     background-repeat: no-repeat;
 }
-     @media (min-width:1200px) {
-    padding-bottom: 200px;
-    padding-top: 200px;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url('../../images/hw-eight/desktop/hero-1-1x.webp');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
 }
 
 .main__title {
