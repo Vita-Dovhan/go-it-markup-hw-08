@@ -1,12 +1,26 @@
 .team {
-  margin-left: -15px;
+  display: flex;
+  flex-wrap: wrap;
   background-color: #f5f4fa;
+  @media (min-width: 768px) {
+    margin-left: -30px;
+    
+  }
+  @media (min-width: 1200px) {
+    margin-left: -30px;
+    
+  }
 }
 .team__item{
-  margin-left: -15px;
   margin-bottom: 30px;
     @media (min-width: 768px) {
+      margin-left: 30px;
     flex-basis: calc((100% - 60px) / 2);
+  }
+     @media (min-width: 1200px) {
+       margin-left: 30px;
+    flex-basis: calc((100% - 120px) / 4);
+    margin-bottom: 0px;
   }
 }
 .team__member {
@@ -33,4 +47,5 @@
   font-weight: 500;
   color: var(--secondary-text-colot);
   text-align: center;
+  margin-bottom: 16px;
 }

@@ -232,12 +232,25 @@
         <h2 class="section__title">Наша команда</h2>
         <ul class="team">
           <li class="team__item">
+           <picture>
+             <source srcset="
+             ./images/hw-eight/desktop/member-1-1x.webp 1x, 
+             ./images/hw-eight/desktop/member-1-2x.webp 2x"
+              media="(min-width: 1200px)">
+            <source srcset="
+             ./images/hw-eight/tablet/member-1-1x.webp 1x, 
+             ./images/hw-eight/tablet/member-1-2x.webp 2x"
+              media="(min-width: 768px)">
+              <source srcset="
+             ./images/hw-eight/mobile/memder-1-1x.webp 1x, 
+             ./images/hw-eight/mobile/member-1-2x.webp"
+              media="(max-width: 480px)">
             <img
+            src=""
               src="./images/hw-first/photo_4.jpg"
               alt="Фото Ігоря Дем'яненко"
-              width="450"
-              height="460"
             />
+            </picture>
             <div class="team__box">
               <h3 class="team__member">Ігор Дем'яненко</h3>
               <p class="team__text">Product Designer</p>
@@ -294,12 +307,25 @@
             </div>
           </li>
           <li class="team__item">
+               <picture>
+             <source srcset="
+             ./images/hw-eight/desktop/member-2-1x.webp 1x, 
+             ./images/hw-eight/desktop/member-2-2x.webp 2x"
+              media="(min-width: 1200px)">
+            <source srcset="
+             ./images/hw-eight/desktop/member-2-1x.webp 1x, 
+             ./images/hw-eight/tablet/member-2-2x.webp 2x"
+              media="(min-width: 768px)">
+              <source srcset="
+             ./images/hw-eight/mobile/member-2-1x.webp 1x, 
+             ./images/hw-eight/mobile/member-2-2x.png"
+              media="(max-width: 480px)">
             <img
+          
               src="./images/hw-first/photo_5.jpg"
               alt="Фото Ольги Рєпіної"
-              width="450"
-              height="460"
             />
+            </picture>
             <div class="team__box">
               <h3 class="team__member">Ольга Рєпіна</h3>
               <p class="team__text">Frontend Developer</p>
@@ -355,13 +381,26 @@
               </ul>
             </div>
           </li>
+
           <li class="team__item">
+               <picture>
+             <source srcset="
+             ./images/hw-eight/desktop/member-3-1x.webp 1x, 
+             ./images/hw-eight/desktop/member-3-2x.webp 2x"
+              media="(min-width: 1200px)">
+            <source srcset="
+             ./images/hw-eight/desktop/member-3-1x.webp 1x, 
+             ./images/hw-eight/tablet/member-3-2x.webp 2x"
+              media="(min-width: 768px)">
+              <source srcset="
+             ./images/hw-eight/mobile/member-3-1x.webp 1x, 
+             ./images/hw-eight/mobile/member-3-2x.webp"
+              media="(max-width: 480px)">
             <img
               src="./images/hw-first/photo_6.jpg"
               alt="Фото Миколи Тарасова"
-              width="450"
-              height="460"
             />
+            </picture>
             <div class="team__box">
               <h3 class="team__member">Микола Тарасов</h3>
               <p class="team__text">Marketing</p>
@@ -418,12 +457,26 @@
             </div>
           </li>
           <li class="team__item">
+                <picture>
+             <source srcset="
+             ./images/hw-eight/desktop/member-4-1x.webp 1x, 
+             ./images/hw-eight/desktop/member-4-2x.webp 2x"
+              media="(min-width: 1200px)">
+            <source srcset="
+             ./images/hw-eight/tablet/member-4-1x.webp 1x, 
+             ./images/hw-eight/tablet/member-4-2x.webp 2x"
+              media="(min-width: 768px)">
+              <source srcset="
+             ./images/hw-eight/mobile/member-4-1x.webp 1x, 
+             ./images/hw-eight/mobile/member-4-2x.webp 2x"
+              media="(max-width: 480px)">
             <img
+            src="./images/hw-eight/mobile/member-4-2x.webp"
+            src="./images/hw-eight/mobile/memder-1-1x.webp"
               src="./images/hw-first/photo_7.jpg"
               alt="Фото Михайла Єрмакова"
-              width="450"
-              height="460"
             />
+            </picture>
             <div class="team__box">
               <h3 class="team__member">Михайло Єрмаков</h3>
               <p class="team__text">UI Designer</p>
@@ -531,6 +584,7 @@
 
     <footer class="footer">
       <div class="container">
+        <div class="box-wrap-footer">
         <div class="box-address"> 
           <a class="box-address__footer-logo" href="/">Web<span class="logo--light">Studio</span></a>
           <address>
@@ -605,6 +659,7 @@
               </a>
             </li>
           </ul>
+        </div>
         </div>
         <form class="footer-form">
           <h3 class="footer-social__text">Підпишіться на розсилку</h3>
@@ -681,3 +736,8 @@
       <script src="./js/modal.js"></script>
   </body>
 </html>
+
+
+
+
+
