@@ -1,13 +1,13 @@
 .footer {
   display: flex;
   flex-wrap: wrap;
-  align-items: baseline;
-  justify-content: center;
-  // align-items: center;
-  // justify-content: center;
   background-color: var(--back-ground-color);
   padding: 60px 0;
+ 
+}
+.container-wrap{
   @media (min-width: 1200px) {
+    display: flex;
     flex-wrap: wrap;
     align-items: baseline;
   }
@@ -30,17 +30,13 @@
   align-items: baseline;
 }
 
-
 }
+
 .box-address{
 display: flex;
 flex-direction: column;
 align-items: center;
 margin-bottom: 60px;
-@media (min-width: 1200px) {
-  display: flex;
-  flex-wrap: wrap;
-}
 }
 
 .logo--light {
@@ -103,13 +99,13 @@ letter-spacing: 0.03em;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
 }
-
 .footer-form{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  @media (min-width: 768) {
-    
+  @media (min-width: 1200px) {
+    width: 358px;
+    margin-left: 93px;
   }
 }
 
@@ -124,10 +120,7 @@ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 border-radius: 4px;
 color: rgba(255, 255, 255, 0.6);
 padding-left: 16px;
-@media (min-width: 768px) {
-  
-  
-}
+
 }
 
 .footer-form__input::placeholder{
@@ -161,6 +154,8 @@ color: #FFFFFF;
 .footer-form__icon{
   margin-left: 10px;
 }
+
+
 
 
 

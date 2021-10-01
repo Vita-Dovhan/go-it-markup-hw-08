@@ -790,14 +790,13 @@ img {
 .footer {
   display: flex;
   flex-wrap: wrap;
-  align-items: baseline;
-  justify-content: center;
   background-color: var(--back-ground-color);
   padding: 60px 0;
 }
 
 @media (min-width: 1200px) {
-  .footer {
+  .container-wrap {
+    display: flex;
     flex-wrap: wrap;
     align-items: baseline;
   }
@@ -826,13 +825,6 @@ img {
   flex-direction: column;
   align-items: center;
   margin-bottom: 60px;
-}
-
-@media (min-width: 1200px) {
-  .box-address {
-    display: flex;
-    flex-wrap: wrap;
-  }
 }
 
 .logo--light {
@@ -906,6 +898,13 @@ address {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+@media (min-width: 1200px) {
+  .footer-form {
+    width: 358px;
+    margin-left: 93px;
+  }
 }
 
 .footer-form__input {
@@ -996,6 +995,7 @@ address {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
+  letter-spacing: 0.03em;
   cursor: pointer;
   border-radius: 4px;
   padding: 6px 22px;
@@ -1055,6 +1055,7 @@ address {
 .photo__text {
   font-size: 16px;
   line-height: 1.88;
+  letter-spacing: 0.03em;
   color: var(--secondary-text-colot);
 }
 

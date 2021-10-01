@@ -22,8 +22,6 @@
      <link rel="stylesheet" href="css/main.min.css" />
     <title>HW-8</title>
   </head>
-
-  <body>
     <!-- page_header_content -->
     <header class="header">
       <div class="container header__container">
@@ -41,7 +39,6 @@
               <a class="nav__link" href="/">Контакти</a>
             </li>
           </ul>
-        </nav>
         <ul class="contacts">
           <li class="contacts__item">
             <a class="contacts__link" href="mailto:info@devstudio.com">
@@ -197,30 +194,42 @@
         <h2 class="section__title">Чим ми займаємося</h2>
         <ul class="work">
           <li class="work__item">
-            <img
+                 <picture>
+             <source srcset="
+             ./images/hw-eight/desktop/device-1-1x.webp 1x, 
+             ./images/hw-eight/desktop/device-1-2x.webp 2x"
+              media="(min-width: 1200px)">
+            <img 
               src="./images/hw-first/photo_1.jpg"
               alt="Кодування сайтів"
-              width="370"
-              height="294"
             />
+            </picture>
             <h3 class="work__label">Десктопні додатки</h3>
           </li>
           <li class="work__item">
+                  <picture>
+             <source srcset="
+             ./images/hw-eight/desktop/device-2-1x.webp 1x, 
+             ./images/hw-eight/desktop/device-2-2x.webp 2x"
+              media="(min-width: 1200px)">
             <img
               src="./images/hw-first/photo_2.jpg"
               alt="Наповнення контентом"
-              width="370"
-              height="294"
             />
+            </picture>
             <h3 class="work__label">Мобільні додатки</h3>
           </li>
           <li class="work__item">
+                  <picture>
+             <source srcset="
+             ./images/hw-eight/desktop/device-3-1x.webp 1x, 
+             ./images/hw-eight/desktop/device-3-2x.webp 2x"
+              media="(min-width: 1200px)">
             <img
               src="./images/hw-first/photo_3.jpg"
               alt="Робота над дизайном"
-              width="370"
-              height="294"
             />
+            </picture>
             <h3 class="work__label">Дизайнерські рішення</h3>
           </li>
         </ul>
@@ -243,10 +252,9 @@
               media="(min-width: 768px)">
               <source srcset="
              ./images/hw-eight/mobile/memder-1-1x.webp 1x, 
-             ./images/hw-eight/mobile/member-1-2x.webp"
+             ./images/hw-eight/mobile/member-1-2x.webp 2x"
               media="(max-width: 480px)">
-            <img
-            src=""
+              <img
               src="./images/hw-first/photo_4.jpg"
               alt="Фото Ігоря Дем'яненко"
             />
@@ -318,10 +326,9 @@
               media="(min-width: 768px)">
               <source srcset="
              ./images/hw-eight/mobile/member-2-1x.webp 1x, 
-             ./images/hw-eight/mobile/member-2-2x.png"
+             ./images/hw-eight/mobile/member-2-2x.png 2x"
               media="(max-width: 480px)">
             <img
-          
               src="./images/hw-first/photo_5.jpg"
               alt="Фото Ольги Рєпіної"
             />
@@ -394,7 +401,7 @@
               media="(min-width: 768px)">
               <source srcset="
              ./images/hw-eight/mobile/member-3-1x.webp 1x, 
-             ./images/hw-eight/mobile/member-3-2x.webp"
+             ./images/hw-eight/mobile/member-3-2x.webp 2x"
               media="(max-width: 480px)">
             <img
               src="./images/hw-first/photo_6.jpg"
@@ -471,8 +478,6 @@
              ./images/hw-eight/mobile/member-4-2x.webp 2x"
               media="(max-width: 480px)">
             <img
-            src="./images/hw-eight/mobile/member-4-2x.webp"
-            src="./images/hw-eight/mobile/memder-1-1x.webp"
               src="./images/hw-first/photo_7.jpg"
               alt="Фото Михайла Єрмакова"
             />
@@ -578,12 +583,11 @@
           </li>
         </ul>
       </div>
+
     </section> 
-
     <!-- page_footer_content -->
-
     <footer class="footer">
-      <div class="container">
+      <div class="container container-wrap">
         <div class="box-wrap-footer">
         <div class="box-address"> 
           <a class="box-address__footer-logo" href="/">Web<span class="logo--light">Studio</span></a>
@@ -662,9 +666,11 @@
         </div>
         </div>
         <form class="footer-form">
+          
           <h3 class="footer-social__text">Підпишіться на розсилку</h3>
             <input class="footer-form__input" type="email" name="email" placeholder="E-mail" />
-          <button class="footer-form__button" type="submit">
+      
+            <button class="footer-form__button" type="submit">
             Підписатися
             <svg class="footer-form__icon" width="24" height="24">
               <use href="./images/symbol-defs.svg#icon-icon-telegram"></use>
@@ -730,7 +736,6 @@
           </div>
         </div>
       </div>
-        </div>
     </footer>
       <script src="./js/menu.js"></script>
       <script src="./js/modal.js"></script>
