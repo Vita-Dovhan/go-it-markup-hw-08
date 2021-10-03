@@ -984,6 +984,12 @@ address {
   align-items: baseline;
 }
 
+.filter {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
 @media (min-width: 768px) {
   .filter {
     justify-content: center;
@@ -1000,18 +1006,18 @@ address {
   margin-right: 8px;
 }
 
-.filter__item:last-child {
+.filter__item:last-child, .filter__item:nth-child(4) {
   margin-top: 8px;
 }
 
 @media (min-width: 1200px) {
-  .filter__item:last-child {
+  .filter__item:last-child, .filter__item:nth-child(4) {
     margin-top: 0px;
   }
 }
 
 @media (min-width: 768px) {
-  .filter__item:last-child {
+  .filter__item:last-child, .filter__item:nth-child(4) {
     margin-top: 0px;
   }
 }
