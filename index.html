@@ -67,7 +67,7 @@
       <div class="mob-menu is-hidden" data-menu>
                  <ul class="mob-menu-list">
             <li class="mob-menu-list__item">
-              <a class="mob-menu-list__link mob-menu--current" href="/">Студія</a>
+              <a class="mob-menu-list__link mob-menu--current" href="./index.html">Студія</a>
             </li>
             <li class="mob-menu-list__item">
               <a class="mob-menu-list__link mob-menu-link" href="./portfolio.html">Портфоліо</a>
@@ -76,6 +76,7 @@
               <a class="mob-menu-list__link" href="/">Контакти</a>
             </li>
           </ul>
+          <div class="mob-menu-wrap">
         <ul class="mob-menu-contacts">
                <li class="mob-menu-list__item">
             <a class="mob-menu-list__link-tel" href="tel:info@devstudio.com">
@@ -114,6 +115,7 @@
             class="mob-networks__link" >LinkedIn</a>
           </li>
         </ul>
+        </div>
             <button class="mob-menu-close" data-menu-close>
               <svg class="mob-menu-cross"
               width="40" 
@@ -535,7 +537,7 @@
         </ul>
       </div>
     </section>
-    <!--<section class="section">-->
+    <section class="section">
       <div class="container">
         <h2 class="section__title">Постійні клієнти</h2>
         <ul class="clients">
@@ -587,7 +589,7 @@
     </section> 
     <!-- page_footer_content -->
     <footer class="footer">
-      <div class="container container-wrap">
+      <footer class="container container-wrap">
         <div class="box-wrap-footer">
         <div class="box-address"> 
           <a class="box-address__footer-logo" href="/">Web<span class="logo--light">Studio</span></a>
@@ -666,10 +668,10 @@
         </div>
         </div>
         <form class="footer-form">
-          
+          <div class="vita">
           <h3 class="footer-social__text">Підпишіться на розсилку</h3>
             <input class="footer-form__input" type="email" name="email" placeholder="E-mail" />
-      
+          </div>
             <button class="footer-form__button" type="submit">
             Підписатися
             <svg class="footer-form__icon" width="24" height="24">
@@ -677,7 +679,7 @@
             </svg>
           </button>
         </form>
-
+      </footer>
         <div class="backdrop is-hidden" data-modal>
           <div class="modal">
             <form class="form-modal">
@@ -736,7 +738,6 @@
           </div>
         </div>
       </div>
-    </footer>
       <script src="./js/menu.js"></script>
       <script src="./js/modal.js"></script>
   </body>

@@ -1,12 +1,14 @@
 .skills{
-  display: flex;
+  @media (min-width: 768px) {
+ display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
+} 
 }
 .skills__item{
-  margin-left: 30px;
-  margin-bottom: 30px;
+
   @media (min-width: 768px) {
+    margin-left: 30px;
     flex-basis: calc((100% - 60px) / 2);
   }
    @media (min-width: 1200px) {
@@ -14,6 +16,9 @@
   }
 }
 
+.skills__item:not(:last-child){
+  margin-bottom: 30px;
+}
 
 .skills__box{
   display: flex;
