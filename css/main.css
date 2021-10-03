@@ -342,11 +342,17 @@ img {
 
 .mob-menu-list__link-tel {
   font-weight: 500;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  color: #757575;
+  margin-bottom: 32px;
+}
+
+.mob-menu-list__link-tel:hover, .mob-menu-list__link-tel:focus {
+  color: var(--accent-color);
   font-size: 34px;
   line-height: 1.18;
-  letter-spacing: 0.02em;
-  color: #2196F3;
-  margin-bottom: 32px;
 }
 
 .mob-menu-list__link-mail {
@@ -359,6 +365,8 @@ img {
 
 .mob-menu-list__link-mail:hover, .mob-menu-list__link-mail:focus {
   color: var(--accent-color);
+  font-size: 34px;
+  line-height: 1.18;
 }
 
 .mob-networks__item:not(:first-child)::before {
