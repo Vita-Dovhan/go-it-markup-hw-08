@@ -649,10 +649,6 @@ img {
   }
 }
 
-.team__item {
-  margin-bottom: 30px;
-}
-
 @media (min-width: 768px) {
   .team__item {
     margin-left: 30px;
@@ -857,14 +853,12 @@ img {
   .footer-social {
     display: inline-flex;
     flex-direction: column;
-    margin-bottom: 0px;
   }
 }
 
 @media (min-width: 1200px) {
   .footer-social {
     margin-left: 70px;
-    margin-bottom: 0;
   }
 }
 
@@ -917,8 +911,8 @@ address {
 @media (min-width: 768px) and (min-width: 1200px) {
   .footer-form {
     display: flex;
-    justify-content: center;
     align-items: flex-end;
+    margin-left: 93px;
   }
 }
 
@@ -936,7 +930,7 @@ address {
 
 @media (min-width: 1200px) {
   .footer-form__input {
-    width: 328px;
+    width: 358px;
     margin-bottom: 0px;
   }
 }
