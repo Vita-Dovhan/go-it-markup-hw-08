@@ -11,7 +11,8 @@
    @media screen and (min-device-pixel-ratio: 2),
           (min-resolution: 192dpi),
           (min-resolution: 2dppx) {
-          background-image: url('../../images/hw-eight/mobile/hero-mob-@2x.webp');
+           background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url('../../images/hw-eight/mobile/Hero-2x.webp');
    }
   
      @media screen and (min-width: 768px) {
@@ -23,18 +24,18 @@
           (min-resolution: 192dpi),
           (min-resolution: 2dppx){
           background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url('../images/hw-eight/tablet/hero-2x.jpg');    
+    url('../../images/hw-eight/tablet/hero-tab-2x.webp');    
 }
  @media  screen and (min-width: 1200px) {
          background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url('../images/hw-eight/desktop/hero-1-2x.jpg');
+    url('../../images/hw-eight/desktop/hero-1-1x.webp');
      }
   
     @media screen and (min-width:1200px)  and (min-device-pixel-ratio: 2),
           (min-resolution: 192dpi),
           (min-resolution: 2dppx) {
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url('../images/hw-eight/desktop/hero-1-2x.jpg');
+    url('../../images/hw-eight/desktop/hero-desk-2x.jpg');
 }
 }
 
