@@ -456,7 +456,7 @@ img {
   text-align: center;
   padding-bottom: 118px;
   padding-top: 118px;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hw-eight/mobile/hero-mob-1x.webp");
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../images/hw-eight/mobile/hero-mob-1x.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -464,13 +464,13 @@ img {
 
 @media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .main {
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../images/hw-eight/mobile/hero-mob-1x.webp");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../images/hw-eight/mobile/hero-mob-2x.webp");
   }
 }
 
 @media screen and (min-width: 768px) {
   .main {
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hw-eight/tablet/hero-1x.webp");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../images/hw-eight/tablet/hero-tab-1x.webp");
   }
 }
 
@@ -482,13 +482,13 @@ img {
 
 @media screen and (min-width: 1200px) {
   .main {
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../images/hw-eight/desktop/hero-1-2x.jpg ");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../images/hw-eight/desktop/hero-desk-1x.webp");
   }
 }
 
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .main {
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../images/hw-eight/desktop/hero-desk-2x.jpg");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../images/hw-eight/desktop/hero-desk-2x.webp");
   }
 }
 
