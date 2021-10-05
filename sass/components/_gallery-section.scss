@@ -18,6 +18,10 @@
   margin-top: 30px;
 }
 }
+
+.photo-item:not(:last-child){
+  margin-bottom: 30px;
+}
 .photo__link{
   transition: background-color var(--time) var(--main-function),
               box-shadow var(--time) var(--main-function);

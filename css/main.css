@@ -86,7 +86,7 @@ img {
   padding: 60px 0;
 }
 
-@media (min-width: 1200) {
+@media (min-width: 1200px) {
   .section {
     padding: 94px 0;
   }
@@ -400,8 +400,16 @@ img {
   .contacts {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 21px;
-    margin-bottom: 21px;
+    padding-top: 21px;
+    padding-bottom: 21px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .contacts {
+    padding-top: 21px;
+    padding-bottom: 21px;
+    padding-left: 218px;
   }
 }
 
@@ -1064,6 +1072,10 @@ address {
   }
 }
 
+.photo-item:not(:last-child) {
+  margin-bottom: 30px;
+}
+
 .photo__link {
   transition: background-color var(--time) var(--main-function), box-shadow var(--time) var(--main-function);
 }
@@ -1134,7 +1146,7 @@ address {
   left: 0;
   width: 100vw;
   height: 100vh;
-  padding: 93px 15px;
+  padding: 15px 15px;
   background-color: rgba(0, 0, 0, 0.2);
   opacity: 1;
   transition: opacity var(--time) var(--main-function), visibility var(--time) var(--main-function);
