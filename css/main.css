@@ -156,7 +156,6 @@ img {
 @media (min-width: 768px) {
   .nav {
     display: flex;
-    margin-right: 84px;
   }
 }
 
@@ -402,6 +401,7 @@ img {
     flex-wrap: wrap;
     padding-top: 21px;
     padding-bottom: 21px;
+    padding-left: 84px;
   }
 }
 
@@ -409,7 +409,7 @@ img {
   .contacts {
     padding-top: 21px;
     padding-bottom: 21px;
-    padding-left: 218px;
+    padding-left: 300px;
   }
 }
 
