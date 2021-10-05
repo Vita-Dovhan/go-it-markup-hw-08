@@ -10,12 +10,11 @@
   margin-bottom: 30px;
   flex-basis: calc((100% - 60px) / 2);
   @media (min-width: 768px) {
-flex-basis: calc((100% - 90px) / 3);
-}
+    flex-basis: calc((100% - 90px) / 3);
+  }
   @media (min-width: 1200px) {
     flex-basis: calc((100% - 180px) / 6);
-}
-
+  }
 }
 .clients__link {
   display: flex;
@@ -25,7 +24,7 @@ flex-basis: calc((100% - 90px) / 3);
   justify-content: center;
   align-items: center;
   transition: border var(--time) var(--main-function);
-    &:hover {
+  &:hover {
     border: 1px solid var(--accent-color);
   }
 }

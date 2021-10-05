@@ -194,23 +194,23 @@ img {
 }
 
 .nav__item:nth-child(1)::after {
-  content: "";
+  content: '';
   width: 48px;
   height: 4px;
   position: absolute;
   top: 77px;
   border-radius: 2px;
-  background-color: #2196F3;
+  background-color: #2196f3;
 }
 
 .nav__item-portfolio:nth-child(2)::after {
-  content: "";
+  content: '';
   width: 78px;
   height: 4px;
   top: 77px;
   position: absolute;
   border-radius: 2px;
-  background-color: #2196F3;
+  background-color: #2196f3;
 }
 
 .nav__icon {
@@ -312,7 +312,7 @@ img {
 
 .mob-menu-close:hover .mob-menu-cross,
 .mob-menu-close:focus .mob-menu-cross {
-  fill: #2196F3;
+  fill: #2196f3;
   cursor: pointer;
 }
 
@@ -323,7 +323,7 @@ img {
 
 .icon-menu:hover .burger-menu,
 .icon-menu:focus .burger-menu {
-  fill: #2196F3;
+  fill: #2196f3;
   cursor: pointer;
 }
 
@@ -343,7 +343,7 @@ img {
   font-size: 18px;
   line-height: 1.22;
   letter-spacing: 0.02em;
-  color: #2196F3;
+  color: #2196f3;
 }
 
 .mob-menu-list__link-tel {
@@ -376,7 +376,7 @@ img {
 }
 
 .mob-networks__item:not(:first-child)::before {
-  content: "";
+  content: '';
   width: 0px;
   height: 22px;
   position: absolute;
@@ -456,7 +456,7 @@ img {
   text-align: center;
   padding-bottom: 118px;
   padding-top: 118px;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../images/hw-eight/mobile/hero-mob-1x.webp");
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hw-eight/mobile/hero-mob-1x.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -464,31 +464,31 @@ img {
 
 @media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .main {
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../images/hw-eight/mobile/hero-mob-2x.webp");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hw-eight/mobile/hero-mob-2x.webp");
   }
 }
 
 @media screen and (min-width: 768px) {
   .main {
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../images/hw-eight/tablet/hero-tab-1x.webp");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hw-eight/tablet/hero-tab-1x.webp");
   }
 }
 
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .main {
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../images/hw-eight/tablet/hero-tab-2x.webp");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hw-eight/tablet/hero-tab-2x.webp");
   }
 }
 
 @media screen and (min-width: 1200px) {
   .main {
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../images/hw-eight/desktop/hero-desk-1x.webp");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hw-eight/desktop/hero-desk-1x.webp");
   }
 }
 
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .main {
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../images/hw-eight/desktop/hero-desk-2x.webp");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hw-eight/desktop/hero-desk-2x.webp");
   }
 }
 
@@ -536,6 +536,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     margin-left: -30px;
+    margin-bottom: -30px;
   }
 }
 
@@ -646,6 +647,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     margin-left: -30px;
+    margin-bottom: -30px;
   }
 }
 
@@ -845,7 +847,7 @@ img {
   text-align: center;
   line-height: 1.14;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-bottom: 20px;
 }
 
@@ -951,7 +953,7 @@ address {
   display: flex;
   min-width: 200px;
   height: 50px;
-  background: #2196F3;
+  background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: none;
@@ -960,7 +962,7 @@ address {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
-  color: #FFFFFF;
+  color: #ffffff;
   margin: 0 auto;
 }
 
@@ -1000,18 +1002,21 @@ address {
   margin-right: 8px;
 }
 
-.filter__item:last-child, .filter__item:nth-child(4) {
+.filter__item:last-child,
+.filter__item:nth-child(4) {
   margin-top: 8px;
 }
 
 @media (min-width: 1200px) {
-  .filter__item:last-child, .filter__item:nth-child(4) {
+  .filter__item:last-child,
+  .filter__item:nth-child(4) {
     margin-top: 0px;
   }
 }
 
 @media (min-width: 768px) {
-  .filter__item:last-child, .filter__item:nth-child(4) {
+  .filter__item:last-child,
+  .filter__item:nth-child(4) {
     margin-top: 0px;
   }
 }
@@ -1248,7 +1253,7 @@ address {
 }
 
 .form-modal__input:focus ~ .form-modal__icon {
-  fill: #2196F3;
+  fill: #2196f3;
 }
 
 .form-modal__comment {
@@ -1306,7 +1311,7 @@ address {
 .checkbox:checked + .form-modal__check-icon {
   border-color: var(--accent-color);
   background-origin: border-box;
-  background-color: #2196F3;
+  background-color: #2196f3;
 }
 
 .form-modal__link {
@@ -1319,7 +1324,7 @@ address {
   height: 50px;
   padding: 10px 55px;
   margin: 0 auto;
-  background: #2196F3;
+  background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: transparent;
@@ -1328,7 +1333,7 @@ address {
   line-height: 1.87;
   display: flex;
   letter-spacing: 0.06em;
-  color: #FFFFFF;
+  color: #ffffff;
   cursor: pointer;
 }
 
@@ -1339,7 +1344,7 @@ address {
 
 .form-modal__close:hover .form-modal__modal-icon,
 .form-modal__close:focus .form-modal__modal-icon {
-  fill: #2196F3;
+  fill: #2196f3;
 }
 
 .form-modal__close {
